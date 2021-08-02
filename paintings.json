@@ -1,0 +1,45 @@
+ {
+  "products" : [
+      {
+      "id" : "AAA001",
+      "name" : "Juan Carlos Castagnino",
+      "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quidem sequi eum labore assumenda id adipisci a perspiciatis magni, rem, ratione corrupti porro iure dolorum obcaecati provident consequatur maiores. Facilis?",
+      "img" : "multimedia/Fotos/nuevas_fotos/Castagnino_Potro.jpg",
+      "price" : 100,
+      "available" : true,
+      "tags" : ["painting", "art", "print"]
+    },{
+      "id" : "BBB001",
+      "name" : "Juan Carlos Castagnino",
+      "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quidem sequi eum labore assumenda id adipisci a perspiciatis magni, rem, ratione corrupti porro iure dolorum obcaecati provident consequatur maiores. Facilis?",
+      "img" : "multimedia/Fotos/nuevas_fotos/Castagnino_Potro.jpg",
+      "price" : 200,
+      "available" : true,
+      "tags" : ["painting", "art", "print"]
+    },{
+      "id" : "CCC001",
+      "name" : "Juan Carlos Castagnino",
+      "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quidem sequi eum labore assumenda id adipisci a perspiciatis magni, rem, ratione corrupti porro iure dolorum obcaecati provident consequatur maiores. Facilis?",
+      "img" : "multimedia/Fotos/nuevas_fotos/Castagnino_Potro.jpg",
+      "price" : 300,
+      "available" : true,
+      "tags" : ["painting", "art", "print"]
+    },{
+      "id" : "DDD001",
+      "name" : "Juan Carlos Castagnino",
+      "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quidem sequi eum labore assumenda id adipisci a perspiciatis magni, rem, ratione corrupti porro iure dolorum obcaecati provident consequatur maiores. Facilis?",
+      "img" : "multimedia/Fotos/nuevas_fotos/Castagnino_Potro.jpg",
+      "price" : 400,
+      "available" : true,
+      "tags" : ["painting", "art", "print"]
+    },{
+      "id" : "EEE001",
+      "name" : "Juan Carlos Castagnino",
+      "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quidem sequi eum labore assumenda id adipisci a perspiciatis magni, rem, ratione corrupti porro iure dolorum obcaecati provident consequatur maiores. Facilis?",
+      "img" : "multimedia/Fotos/nuevas_fotos/Castagnino_Potro.jpg",
+      "price" : 500,
+      "available" : true,
+      "tags" : ["painting", "art", "print"]
+    }
+  ]
+}

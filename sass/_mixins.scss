@@ -1,0 +1,22 @@
+@mixin flex($fd, $jc, $ai) {
+    display: flex;
+    flex-direction: $fd;
+    justify-content: $jc;
+    align-items: $ai;
+    
+} 
+@mixin grid($fd, $jc, $ai) {
+    display: grid;
+    flex-direction: $fd;
+    justify-content: $jc;
+    align-items: $ai;
+    
+} 
+
+@mixin articles() {
+    padding: 10px;
+    box-shadow: $sombra_cajas;
+    margin: 15px;
+    border-radius: 12px;
+  
+}

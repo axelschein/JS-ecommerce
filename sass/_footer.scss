@@ -1,0 +1,44 @@
+
+footer {
+    height: 25vh;
+    background-color: #fff;
+}
+.footer_p {
+    margin: 0;
+}
+.redes_sociales {
+    @extend %redes;
+}
+.ig_logo:after {
+    @extend %iconos;
+    
+    background: url("../multimedia/logos/instagram.svg") no-repeat center center / contain;
+ }
+ .ig_logo:hover {
+    @extend %hover_iconos;
+
+ }
+.fb_logo:after {
+@extend %iconos;
+color: #000000;
+
+background: url("../multimedia/logos/facebook.svg") no-repeat center center / contain;
+
+}
+.fb_logo:hover { 
+    @extend %hover_iconos; 
+    
+
+}
+
+.flecha_arriba:after {
+@extend %iconos; 
+background: url("../multimedia/logos/double-arrow-up.svg") no-repeat center center / contain;
+height: 40px;
+
+}
+.flecha_arriba:hover {
+    @extend %hover_iconos;
+    color: #000000;
+
+}

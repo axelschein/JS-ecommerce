@@ -1,0 +1,32 @@
+nav {
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    font-size: 0.9rem;
+    text-align: left;
+    height: 80px;
+    width: 100%;
+    z-index: 2;
+}
+nav a::before {
+    content: '';
+    display: flex;
+    height: 6px;
+    background-color:lightgray;
+    top: 8.5%;
+    width: 0%;
+    transition: all ease-in-out 300ms;
+}
+nav a:hover::before {
+    width: 30px;
+}
+@media screen and (min-width: 300px) and (max-width: 414px) {
+    nav {
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        font-size: 0.7rem;
+        text-align: left;
+        height: 80px;
+        width: 100%;
+        z-index: 2;
+    }
+}

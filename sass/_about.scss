@@ -1,0 +1,66 @@
+.masthead_about {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100vh; /* if you don't want it to take up the full screen, reduce this number */
+    z-index: 1;
+    position: relative;
+    background-size: cover !important;
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 32%, rgba(0,0,0,0.65) 100%), url("../multimedia/Fotos/nuevas_fotos/paisaje3.jpg") no-repeat bottom center scroll;
+}
+
+.foto_axel {
+    border-radius: 50%;
+    box-shadow: $sombra_btns;
+}
+
+.flecha_abajo {
+    padding-top: 32vh;
+    padding-bottom: 1vh;
+}
+.flecha_abajo .iconify { 
+    color: $blanco; 
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+@media screen and (min-width: 280px) and (max-width: 412px) {
+    .about {
+        height: 200vh;
+    }
+}
+@media screen and (min-width: 413px) and (max-width: 700px) {
+    .about {
+        height: 160vh;
+    }
+}
+
+@media screen and (min-width: 370px) and (max-width: 411px) {
+    .about {
+        height: 160vh;
+    }
+}
+@media screen and (min-width: 373px) and (max-width: 376px) { //iphone x
+    .about {
+        height: 140vh;
+        @media screen and (min-height: 665px) and (max-height: 669px) { //iphone 678
+            height: 160vh;
+        }
+    }
+    
+}
+@media screen and (min-width: 767px) and (max-width: 800px) { //ipad
+    .about {
+        height: 80vh;
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1025px) {
+    .about {
+        height: 50vh;
+    }
+}
