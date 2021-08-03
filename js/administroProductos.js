@@ -36,12 +36,12 @@ function itemsEnCarrito() {
 
 function agregarProducto(productoId) {
     //let filtro = carrito.find(c => c == productoId)
-         { 
-            carrito.push(productoId)
-            alert("Excelente elección! Vé al carrito")
-            itemsEnCarrito()
-            addProduct()
-        }
+    { 
+        carrito.push(productoId)
+        alert("Excelente elección! Vé al carrito")
+        itemsEnCarrito()
+        addProduct()
+    }
 }
 
 function removerProducto(event) {

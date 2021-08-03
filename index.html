@@ -37,36 +37,28 @@
                     <div class="container"></div> 
                         <div class="col-5 justify-content-xl-center">
                             <a class="navbar-brand" href="tienda.html">
-                                <h2>Tienda de Arte</h2>            
+                                <h2>Tienda de Arte </h2>            
                             </a>
                         </div>
                         <div class="col-2  justify-content-xl-center">
-                            <div class="">
-                                
+                            <div class="cartNumber">
                                 <a class="nav-link text-dark" href="#shoppingcart" class="btn btn-light" onclick="muestroCheckout()" >
-                                    
-                                    
                                     <span class="iconify" data-icon="carbon:shopping-cart" data-inline="false" ></span><span id="itemscarrito"> 0</span>
-                                    
-                                    
                                 </a>
-                                
                             </div>
-                            
                         </div>
-                        <div class="col-5 justify-content-xl-right">
+                        <div class="col-1 justify-content-xl"></div>
+                        <div class="col-4 justify-content-xl">
                             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link text-uppercase text-dark" id="btnTienda" tabindex="-1" aria-disabled="true">Ver Tienda</a>
-                                </li>                         
-                                <li class="nav-item">
-                                    <a class="nav-link text-uppercase text-dark" href="#about">Sobre nosotros</a>
-                                </li> 
-                                                            
                                 
-                                <li class="nav-item">
-                                    
-                                </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase text-dark" id="btnTienda" tabindex="-1" aria-disabled="true">Ver Tienda</a>
+                                    </li>                         
+                                    <li class="nav-item">
+                                        <a class="nav-link text-uppercase text-dark" href="#about">Sobre nosotros</a>
+                                    </li>
+                                
+                                
                             </ul> 
                         </div>  
                     </div>   
@@ -75,10 +67,10 @@
                 <!--hero + la flecha-->
                 <div class="wrapper">
                     <div class="masthead_tienda" role="img" aria-label="Image Description">
-                        <h1 id="btnTienda" class="hero">Tienda</h1>
-                        
+                        <h1 id="btnTienda" class="hero">Tienda</h1>                        
                         <div class="flecha_abajo">
-                            <span id="link2" class="iconify" data-icon="radix-icons:double-arrow-down" data-inline="false"></span> 
+                            <a id="arrowDown" href="#tienda" target="_self"><span id="link2" class="iconify" data-icon="radix-icons:double-arrow-down" data-inline="false"></span></a>
+                            <!-- <span id="link2" class="iconify" data-icon="radix-icons:double-arrow-down" data-inline="false"></span>  -->
                         </div>
                     </div>
                 </div> 
@@ -105,7 +97,6 @@
             <div class="destacado__gradient6">
                 <div class="contenedor">
                         <h2 class="destacado__titulo" id="tienda">Tienda</h2>
-                        <hr>
                         <div id="grillaDeProductos"><!-- Productos en js + flexbox -->   
                         </div>
                         
@@ -156,7 +147,7 @@
                 <footer>
                     <!-- Aca van las redes sociales -->
                     <div class="destacado__negro">  
-                        <a id="flechaArriba" class="flecha_arriba" href="#home" target="_self"></a>
+                        <a id="arrowUp" class="flecha_arriba" href="#home" target="_self"></a>
                         <div class="redes_sociales">
                             <div class="contenedor">
                                 <a  class="ig_logo" href="https://www.instagram.com/axlsch/"> 

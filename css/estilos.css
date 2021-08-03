@@ -777,7 +777,16 @@ input:focus + label {
 }
 
 .tienda {
-  height: 150vh;
+  height: 100vh;
+  padding-top: 10vh;
+}
+
+.cartNumber {
+  padding-left: 2vw;
+}
+
+.nav-item_container {
+  padding-left: 5vw;
 }
 
 #grillaDeProductos {
@@ -785,7 +794,7 @@ input:focus + label {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 110vh;
+  height: 90vh;
 }
 @media screen and (min-width: 300px) and (max-width: 800px) {
   #grillaDeProductos {
@@ -798,8 +807,7 @@ input:focus + label {
 }
 
 .card {
-  height: 70vh;
-  width: 100vh;
+  align-items: center;
   padding: 2px;
   margin: 4px;
   margin-top: 20px;
@@ -812,7 +820,6 @@ input:focus + label {
 .imgProduct {
   height: 35vh;
   padding: 2px;
-  max-width: -webkit-min-content;
   max-width: min-content;
   border-radius: 12px;
 }
@@ -820,7 +827,6 @@ input:focus + label {
 .imgProduct2 {
   height: 15vh;
   padding: 2px;
-  max-width: -webkit-min-content;
   max-width: min-content;
   border-radius: 12px;
 }

@@ -4,11 +4,14 @@ function desplazarMe(titulo) {
     }, 1000)
  }
   
- $('#flechaArriba').click(function() {
+ $('#arrowUp').click(function() {
     desplazarMe("home")
  })
 
- 
+ $('#arrowDown').click(function() {
+   desplazarMe("tienda")
+})
+
 
  $('#link2').click(function() {
     desplazarMe("tienda")
